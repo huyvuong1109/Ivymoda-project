@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-        <title>Ivy-Project</title>
+    
+    <title>Ivy-Project</title>
 </head>
 <body>
     
 <header>
-    <div class="logo">
+      <div class="logo">
         <img src="images/logoo.png">
     </div>
     <div class="menu">
@@ -93,24 +94,113 @@
     </div>
 
 </header>
-<!-----slider-->
-<section id="Slider">
-    <div class="aspect-ratio-169">
-        <img src="images/slide5.jpg">
-        <img src="images/slide2.jpg">
-        <img src="images/slide7.jpg">
-        <img src="images/slide8.jpg">
-        
+<!------cartegory------>
+<section class="cartegory">
+    <div class="container">
+        <div class="cartegory-top row">
+            <p>Trang chủ</p> <span>&#10230;</span> <p>Nữ</p> <span>&#10230;</span> <p>Hàng nữ mới về</p>
+        </div>
     </div>
-    <div class="dot-container">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+    <div class="container">
+        <div class="row">
+            <div class="cartegory-left">
+                <ul>
+                    <li class="cartegory-left-li"><a href="#">NỮ</a>
+                    <ul>
+                        <li><a href="">Hàng nữ mới về</a></li>
+                        <li><a href="">Beyond trendy</a></li>
+                        <li><a href="">Jeans for joy</a></li>
+                        <li><a href="">Quần jean nữ</a></li>
+                    </ul>
+                    </li>
+                    <li class="cartegory-left-li"><a href="#">NAM</a>
+                    <ul>
+                        <li><a href="">Hàng nam mới về</a></li>
+                        <li><a href="">Beyond trendy</a></li>
+                        <li><a href="">Jeans for joy</a></li>
+                        <li><a href="">Quần jean nam</a></li>
+                    </ul>
+                </li>
+                    <li class="cartegory-left-li"><a href="">TRẺ EM</a></li>
+                    <li class="cartegory-left-li"><a href="">BST</a></li>
+                    <li class="cartegory-left-li"><a href="">ĐỒ BẢO HỘ</a></li>
+                </ul>
+            </div>
+            <div class="cartegory-right row ">
+                <div class="cartegory-right-top-item">
+                    <p>Hàng nữ mới về</p>
+                </div>
+                <div class="cartegory-right-top-item">
+                    <button>
+                        <span>Bộ lọc</span> <i class="fas fa-sort-down"></i>
+                    </button>
+                </div>
+                <div class="cartegory-right-top-item">
+                    <select name="" id="">
+                        <option value="">Sắp xếp</option>
+                        <option value="">Giá cao đến thấp</option>
+                        <option value="">Giá thấp đến cao</option>
+                    </select>
+                </div>
+                <div class="cartegory-right-content row">
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp10.jpg">
+                        <h1>Váy Tencel Kose</h1>
+                        <p>790.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp2.jpg">
+                        <h1>Váy Dạ Hội</h1>
+                        <p>890.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp3.jpg">
+                        <h1>Váy Công Sở</h1>
+                        <p>690.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp4.jpg">
+                        <h1>Váy Dự Tiệc</h1>
+                        <p>990.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp5.jpg">
+                        <h1>Váy Thời Trang</h1>
+                        <p>990.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp6.jpg">
+                        <h1>Áo Khoác Dạ</h1>
+                        <p>790.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp7.jpg">
+                        <h1>Váy Hoạ Tiết Thời Trang</h1>
+                        <p>990.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="images/sp9.jpg">
+                        <h1>Váy Nữ Cá Tính</h1>
+                        <p>690.000<sup>đ</sup></p>
+                    </div>
+                </div>
+                <div class="cartegory-right-bottom row">
+                    <div class="cartegory-right-bottom-items">
+                        <p>Hiển thị 2 <span>|</span>4 sản phẩm</p>
+                    </div>
+                    <div class="cartegory-right-bottom-items">
+                        <p><span>&#171;<span>1 2 3 4 5</span>&#187;</span>Trang cuối</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
 </section>
-<!----footer-->
+
+
+
+
+<!-------footer-->
 <section class ="app-container">
     <p>Tải ứng dụng IVY moda</p>
     <div class="app-google">
@@ -181,7 +271,7 @@
     setInterval(imgSlide,4000)
 
 
-    
+   
 
 
 </script>
